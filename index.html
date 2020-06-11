@@ -9,7 +9,8 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/52c8501912.js" crossorigin="anonymous"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -21,17 +22,17 @@
     <!-- End #mobile-menu-toggle -->
     <header>
         <div id="mobile-menu-close">
-            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            <span>Close</span> <i class="fab fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
             <li>
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#experience">Experience</a>
+                <a href="#experience">Work Experience</a>
             </li>
             <li>
-                <a href="#projects">Projects</a>
+                <a href="#projects">Personal Projects</a>
             </li>
             <li>
                 <a href="#skills">Skills</a>
@@ -46,7 +47,7 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Lucas Desouza</h1>
-            <h2>Software Engineer</h2>
+            <h2>Software Engineer - Technical Consultant</h2>
             <a href="Lucas Desouza Resume.pdf" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
@@ -55,7 +56,7 @@
 
         <div id="lead-down">
             <span>
-                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                <i class="fas fa-chevron-down" aria-hidden="true"></i>
             </span>
         </div>
         <!-- End #lead-down -->
@@ -80,7 +81,7 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading">Work Experience</h2>
         <div id="experience-timeline">
             <div data-date="June 2019 – Present">
                 <h3>American Airlines</h3>
@@ -128,7 +129,7 @@
 
 
     <div id="projects">
-        <h2 class="heading">Side Projects</h2>
+        <h2 class="heading">Personal Projects</h2>
         <div class="container">
             <div class="row">
                 <div class="project shadow-large">
@@ -139,9 +140,12 @@
                     <div class="project-info">
                         <h3>Count My Breaths</h3>
                         <p>
-                            A light weight ReactJS application built for people with pet suffering from mitral valve disease. This disease can cause fluid in the lungs and is rarely discovered early. pet owners dealing with this illness are supposed to keep track of their pet's breathing rate regularly and report it to their cardiologist. This app helps you count the rate and store the results. For more information on this disease please visit <a href="https://mightyheartsproject.org">The Mighty Hearts Project</a>.
+                            A light weight ReactJS application built for people with pets suffering from heart disease. Pet owners dealing with this heart disease are supposed to keep track of their pet's breathing rate regularly and report it to their cardiologist. This app helps you count the rate and share with your cardiologist. For more information on this disease please visit <a href="https://mightyheartsproject.org">The Mighty Hearts Project</a>.
                         </p>
-                        <a href="https://countmybreaths.com/" class="btn-rounded-blue" target="_blank">View Project</a>
+                        <a href="https://countmybreaths.com/" class="btn-rounded-blue" target="_blank"><i class="fas fa-plane-arrival" aria-hidden="true"></i>  Landing page</a>
+                        <a href="https://countmybreaths.com" class="btn-rounded-blue" target="_blank"><i class="fab fa-apple" aria-hidden="true"></i> App Store</a>
+                        <a href="https://github.com/LucasCarioca/breath-ios" class="btn-rounded-blue" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>  iOS App</a>
+                        <a href="https://github.com/LucasCarioca/breath" class="btn-rounded-blue" target="_blank"><i class="fab fa-github" aria-hidden="true"></i>  Web App</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -157,7 +161,7 @@
                         <p>
                             A MERN stack application. This app was built for the 2019 oscars so that users could make their predictions and follow the results live with a running leaderboard. What started out as a fun app for our small group of friends to use at a watching party quickly gained 600 users over the course of a weekend. While the app is no longer running, you can still see the site below.
                         </p>
-                        <a href="https://oscars.lucasdesouza.net" class="btn-rounded-blue" target="_blank">View Project</a>
+                        <a href="https://oscars.lucasdesouza.net" class="btn-rounded-blue" target="_blank"><i class="fab fa-react" aria-hidden="true"></i> View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -170,9 +174,9 @@
                     <div class="project-info">
                         <h3>PointIt.io</h3>
                         <p>
-                            A simple Angular application built for teams looking for a quick way to point user stories. This tool was built with remote teams in mind, giving them a tool to use when sizing their work. </a>
+                            A simple Angular application with a firebase backend built for teams looking for a quick way to point user stories. This tool was built with remote teams in mind, giving them a tool to use when sizing their work. </a>
                         </p>
-                        <a href="https://pointit.io"  class="btn-rounded-blue"  target="_blank">View Project</a>
+                        <a href="https://pointit.io"  class="btn-rounded-blue"  target="_blank"><i class="fab fa-angular" aria-hidden="true"></i>  View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -232,25 +236,13 @@
                 </div>
                 <div class="col-sm-2 top">
                     <span id="to-top">
-                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                        <i class="fas fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="https://github.com/LucasCarioca" target="_blank"><i class="fab fa-github" aria-hidden="true"></i> See my work in Github!</a>
                         </li>
                     </ul>
                 </div>
