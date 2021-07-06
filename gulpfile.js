@@ -30,13 +30,10 @@ gulp.task('styles', function () {
         .pipe(gulp.dest('./css'));
 });
 
-gulp.task('watch', ['scripts', 'styles'], function() {
+gulp.task('watch', gulp.series(function() {
     gulp.watch('js/*.js', ['scripts']);
     gulp.watch('scss/*.scss', ['styles']);
-});
+}));
 
 
-gulp.task('build', function() {
-    gulp.start('scripts');
-    gulp.start('styles');
-});
+gulp.task('build', gulp.series('scripts', 'styles'));
