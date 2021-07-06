@@ -1,4 +1,4 @@
-FROM amd64/node:14 as builder
+FROM arm64v8/node:14 as builder
 
 WORKDIR /app
 
@@ -10,6 +10,6 @@ COPY ./ ./
 
 RUN npm run build
 
-FROM amd64/nginx
+FROM arm64v8/nginx
 
 COPY --from=builder /app /usr/share/nginx/html
