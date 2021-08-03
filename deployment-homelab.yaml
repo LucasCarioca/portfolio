@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: portfolio
+  name: portfolio-deployment
+  labels:
+    app: portfolio
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portfolio
+  template:
+    metadata:
+      labels:
+        app: portfolio
+    spec:
+      containers:
+        - name: portfolio
+          image: ghcr.io/lucascarioca/portfolio:latest
+          ports:
+            - containerPort: 80
+              name: portfolio-http
+---
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: portfolio
+  name: portfolio-service
+  annotations:
+    metallb.universe.tf/address-pool: default
+spec:
+  type: LoadBalancer
+  loadBalancerIP: 192.168.1.155
+  ports:
+    - name: tcp
+      port: 80
+      targetPort: portfolio-http
+  selector:
+    app: portfolio
