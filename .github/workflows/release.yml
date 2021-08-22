@@ -57,7 +57,7 @@ jobs:
           kubeconfig: ${{ secrets.HOME_LAB_KUBE_CONFIG }}
 
       - name: Deploy Application
-        run: kubectl apply -f deployment-homelab.yaml
+        run: kubectl apply -f homelab.yaml
 
       - name: Set Image
         run: kubectl set image deployments/portfolio-deployment -n portfolio portfolio=ghcr.io/lucascarioca/portfolio:${{ env.VERSION }}
