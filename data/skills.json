@@ -1,0 +1,72 @@
+[
+    
+    {
+        "grouping": "Languages",
+        "skills": [
+            "Javascript",
+            "Typescript",
+            "Python",
+            "Go",
+            "Java",
+            "Swift",
+            "PHP"
+        ]
+    },
+    {
+        "grouping": "Frameworks",
+        "skills": [
+            "Angular",
+            "ReactJS",
+            "Spring",
+            "Express",
+            "Gin"
+        ]
+    },
+    {
+        "grouping": "DevOps",
+        "skills": [
+            "Github",
+            "Github Actions",
+            "Jenkins",
+            "Terraform",
+            "Puppet"
+        ]
+    },
+    {
+        "grouping": "Data Management",
+        "skills": [
+            {
+                "name": "Microsoft SQL Server",
+                "icon": "msql_server"
+            },
+            "MongoDB",
+            "MySQL",
+            "PostgresSQL"
+        ]
+    },
+    {
+        "grouping": "Containers & Cloud",
+        "skills": [
+            {
+                "name": "Kubernetes",
+                "link": "https://kubernetes.io"
+            },
+            {
+                "name": "Docker",
+                "link": "https://docker.com"
+            },
+            {
+                "name": "Azure",
+                "link": "https://azure.com"
+            },
+            {
+                "name": "AWS",
+                "link": "https://aws.amazon.com"
+            },
+            {
+                "name": "Google Cloud",
+                "link": "https://cloud.google.com"
+            }
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-resume"
+PygmentsCodeFences = true
+PygmentsCodeFencesGuessSyntax = true
+PygmentsStyle = "monokai"
+enableGitInfo = false
+
+[params]
+address = "Dallas, TX"
+email = "lucasfds2777@gmail.com"
+favicon = "/favicon.ico"
+firstName = "Lucas"
+lastName = "Desouza"
+phone = "1-817-721-9802"
+profileImage = "/resources/images/oscars.png"
+showEducation = false
+showExperience = true
+showOpenSource = false
+showProjects = true
+showPublications = false
+showQr = true
+showSkills = true
