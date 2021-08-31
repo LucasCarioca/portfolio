@@ -1,20 +1,38 @@
 [
     {
-        "role": "Boss man",
-        "company": "Current Company LTD",
-        "summary": "Led in development of fast paced software teams.\n- list\n- of\n- things",
-        "range": "February 2016 - Present"
+        "role": "Principal Consultant",
+        "company": "American Airlines",
+        "summary": "Internal consultant coaching and mentoring teams on DevOps and Lean Agile/Product Management methods and best practices for the enterprise. Helping teams adopt TDD practices, implementing automated CI/CD pipelines and migrating off of legacy platforms.",
+        "range": "July 2021 - Present"
     },
     {
-        "role": "Developer",
-        "company": "Current Company LTD",
-        "summary": "Expedited the synergies of collaborative agile tooling.",
-        "range": "March 2014 - February 2016"
+        "role": "Senior Consultant",
+        "company": "American Airlines",
+        "summary": "Internal consultant coaching and mentoring teams on DevOps and Lean Agile/Product Management methods and best practices for the enterprise. Helping teams adopt TDD practices, implementing automated CI/CD pipelines and migrating off of legacy platforms.",
+        "range": "June 2019 - July 2021"
     },
     {
-        "role": "Developer",
-        "company": "Previous Company Inc.",
-        "summary": "Implemented continuous devops pipelines automationing",
-        "range": "February 2013 - March 2014"
+        "role": "Lead Engineer",
+        "company": "AllState",
+        "summary": "Lead Engineer in the Product Technology team. Working on products related to automated batch processing and risk assessment of policies both new and renewal.",
+        "range": "November 2018 - June 2019"
+    },
+    {
+        "role": "Senior Developer",
+        "company": "American Airlines",
+        "summary": "Lead developer on a product team in AAdvantage Loyalty. Building customer facing and internal applications that support the AAdvantage Loyalty program.",
+        "range": "October 2017 - November 2018"
+    },
+    {
+        "role": "Operations Supervisor",
+        "company": "American Airlines",
+        "summary": "Team Lead for AAdvantage Operations. Lead the team that supported and developed applications and servers that provided internal functionality to the AAdvantage Customer service team.",
+        "range": "March 2016 - October 2017"
+    },
+    {
+        "role": "Quality Assurance Analyst",
+        "company": "American Airlines",
+        "summary": "While working as a Quality Assurance Analyst for the AAdvantage Team I also developed tools to improve processes for back office teams and improved communication.",
+        "range": "January 2015 - March 2016"
     }
 ]
