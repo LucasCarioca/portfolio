@@ -1,11 +1,11 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://lucasdesouza.net/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Lucas Desouza'
 theme = "hugo-resume"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
-enableGitInfo = false
+enableGitInfo = true
 
 [params]
 address = "Dallas, TX"
@@ -14,7 +14,7 @@ favicon = "/favicon.ico"
 firstName = "Lucas"
 lastName = "Desouza"
 phone = "1-817-721-9802"
-profileImage = "/resources/images/oscars.png"
+profileImage = "images/picture.jpg"
 showEducation = false
 showExperience = true
 showOpenSource = false
