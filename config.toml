@@ -1,4 +1,4 @@
-baseURL = 'http://lucasdesouza.net/'
+baseURL = 'https://lucasdesouza.net/'
 languageCode = 'en-us'
 title = 'Lucas Desouza'
 theme = "hugo-resume"
