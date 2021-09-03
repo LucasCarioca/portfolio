@@ -1,2 +1,2 @@
-
-A software engineer with a passion for my work. currently working at American Airlines as a delivery transformation technical consultant.
+## Software Engineer & Technical Consultant
+I'm a software engineer with a passion for my work. currently working at American Airlines as a delivery transformation technical consultant. I lead workshops and other training classes as well as run our dojo known internally as the Hangar. 
