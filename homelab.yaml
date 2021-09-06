@@ -22,24 +22,6 @@ spec:
             - containerPort: 80
               name: portfolio-http
 ---
-apiVersion: v1
-kind: Service
-metadata:
-  namespace: portfolio
-  name: portfolio-service
-  annotations:
-    metallb.universe.tf/address-pool: default
-spec:
-  type: LoadBalancer
-  loadBalancerIP: 10.10.0.215
-  ports:
-    - name: tcp
-      port: 80
-      targetPort: portfolio-http
-  selector:
-    app: portfolio
----
-apiVersion: v1
 kind: Service
 metadata:
   namespace: portfolio
