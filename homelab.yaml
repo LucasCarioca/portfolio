@@ -22,6 +22,7 @@ spec:
             - containerPort: 80
               name: portfolio-http
 ---
+apiVersion: v1
 kind: Service
 metadata:
   namespace: portfolio
